@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-PT" data-title-en="Recipes – Neutura">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas – Neutura</title>
+    <meta name="description" content="Receitas práticas e saborosas com produtos Neutura: pratos principais, snacks e sobremesas inspirados na tradição portuguesa, prontos em minutos." data-description-en="Easy, tasty recipes with Neutura products: main courses, snacks and desserts inspired by Portuguese tradition, ready in minutes.">
+    <link rel="preconnect" href="https://fonts.cdnfonts.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/circe">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <meta name="theme-color" content="#000000">
+    {{SEO}}
+</head>
+<body class="lang-pt">
+
+<a class="skip-link" href="#conteudo"><span class="lang-pt">Saltar para o conteúdo</span><span class="lang-en">Skip to content</span></a>
+
+<header class="site-header">
+    <div class="header-container">
+        <a href="index.html" class="logo-link" aria-label="Neutura – Página inicial" data-aria-en="Neutura – Home page">
+            <img src="img/neutura-logotipo.png" alt="Neutura" class="site-logo" width="400" height="400">
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-panel" aria-label="Menu">
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+        </button>
+
+        <div class="nav-panel" id="nav-panel">
+            <nav aria-label="Navegação principal" data-aria-en="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="marca.html" class="nav-link"><span class="lang-pt">Marca</span><span class="lang-en">Brand</span></a></li>
+                    <li><a href="receitas.html" class="nav-link active" aria-current="page"><span class="lang-pt">Receitas</span><span class="lang-en">Recipes</span></a></li>
+                    <li><a href="b2b.html" class="nav-link">B2B</a></li>
+                    <li><a href="carreiras.html" class="nav-link"><span class="lang-pt">Carreiras</span><span class="lang-en">Careers</span></a></li>
+                    <li><a href="contactos.html" class="nav-link"><span class="lang-pt">Contactos</span><span class="lang-en">Contacts</span></a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                {{LANG}}
+                <a href="https://www.ateti.eu" class="btn nav-external-btn" target="_blank" rel="noopener noreferrer">
+                    <span class="lang-pt">Visitar Loja Online</span><span class="lang-en">Visit Online Store</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="nav-backdrop"></div>
+
+<main id="conteudo">
+    <section class="page-hero">
+        <div class="container hero-narrow">
+            <span class="section-tagline"><span class="lang-pt">Inspiração Gastronómica</span><span class="lang-en">Food Inspiration</span></span>
+            <h1 class="page-hero-title"><span class="lang-pt">As Nossas Receitas</span><span class="lang-en">Our Recipes</span></h1>
+            <p class="page-hero-subtitle">
+                <span class="lang-pt">Descubra formas autênticas e práticas de levar os produtos Neutura para a sua cozinha, respeitando a tradição e o sabor.</span>
+                <span class="lang-en">Discover authentic, practical ways to bring Neutura products into your kitchen, honouring tradition and flavour.</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- Barra de Filtros -->
+    <section class="section-filters" aria-label="Filtrar receitas" data-aria-en="Filter recipes">
+        <div class="container">
+            <ul class="filter-list">
+                <li><button type="button" class="filter-btn active" data-filter="all" aria-pressed="true"><span class="lang-pt">Todas</span><span class="lang-en">All</span></button></li>
+                <li><button type="button" class="filter-btn" data-filter="principal" aria-pressed="false"><span class="lang-pt">Pratos Principais</span><span class="lang-en">Main Courses</span></button></li>
+                <li><button type="button" class="filter-btn" data-filter="snack" aria-pressed="false">Snacks</button></li>
+                <li><button type="button" class="filter-btn" data-filter="sobremesa" aria-pressed="false"><span class="lang-pt">Sobremesas</span><span class="lang-en">Desserts</span></button></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- TODO: só a receita das Migas Rústicas tem página própria (receita.html). Criar uma página por receita e atualizar os links. -->
+    <section class="section-recipes" aria-labelledby="lista-receitas">
+        <div class="container">
+            <h2 class="sr-only" id="lista-receitas"><span class="lang-pt">Lista de receitas</span><span class="lang-en">Recipe list</span></h2>
+            <div class="recipes-grid">
+
+                <article class="recipe-card" data-category="principal">
+                    <a href="receita.html" class="recipe-link">
+                        <picture>
+                            <source srcset="img/migas-rusticas-couve-broa.avif" type="image/avif">
+                            <img class="recipe-image" src="img/migas-rusticas-couve-broa.png" alt="Migas rústicas de couve e broa" data-alt-en="Rustic migas with kale and cornbread" width="600" height="300" loading="lazy" decoding="async" style="object-fit: contain;">
+                        </picture>
+                        <div class="recipe-meta">
+                            <span class="recipe-tag"><span class="lang-pt">Prato Principal</span><span class="lang-en">Main Course</span></span>
+                            <span>15 min</span>
+                        </div>
+                        <h3 class="recipe-title"><span class="lang-pt">Migas Rústicas Tradicionais</span><span class="lang-en">Traditional Rustic Migas</span></h3>
+                        <p class="recipe-excerpt">
+                            <span class="lang-pt">O acompanhamento clássico para carnes grelhadas: migas de couve e broa salteadas em azeite e alho até ficarem tostadas.</span>
+                            <span class="lang-en">The classic side for grilled meats: kale and cornbread migas sautéed in olive oil and garlic until golden.</span>
+                        </p>
+                        <span class="btn-text-link"><span class="lang-pt">Ver Receita</span><span class="lang-en">View Recipe</span></span>
+                    </a>
+                </article>
+
+                <article class="recipe-card" data-category="sobremesa">
+                    <a href="receita.html" class="recipe-link">
+                        <img class="recipe-image" src="img/receita-bolo-chocolate-grao-de-bico.jpg" alt="Fatia de bolo de chocolate e grão-de-bico" data-alt-en="Slice of chocolate and chickpea cake" width="600" height="300" loading="lazy" decoding="async">
+                        <div class="recipe-meta">
+                            <span class="recipe-tag"><span class="lang-pt">Sobremesa</span><span class="lang-en">Dessert</span></span>
+                            <span>45 min</span>
+                        </div>
+                        <h3 class="recipe-title"><span class="lang-pt">Bolo de Chocolate e Grão-de-Bico</span><span class="lang-en">Chocolate &amp; Chickpea Cake</span></h3>
+                        <p class="recipe-excerpt">
+                            <span class="lang-pt">Uma sobremesa surpreendente e rica. O grão-de-bico Neutura substitui a farinha e garante uma textura húmida e deliciosa.</span>
+                            <span class="lang-en">A surprising, rich dessert. Neutura chickpeas replace the flour for a wonderfully moist texture.</span>
+                        </p>
+                        <span class="btn-text-link"><span class="lang-pt">Ver Receita</span><span class="lang-en">View Recipe</span></span>
+                    </a>
+                </article>
+
+                <article class="recipe-card" data-category="principal">
+                    <a href="receita.html" class="recipe-link">
+                        <img class="recipe-image" src="img/receita-arroz-tomate-croquetes.jpg" alt="Arroz de tomate servido com croquetes" data-alt-en="Tomato rice served with croquettes" width="600" height="300" loading="lazy" decoding="async">
+                        <div class="recipe-meta">
+                            <span class="recipe-tag"><span class="lang-pt">Prato Principal</span><span class="lang-en">Main Course</span></span>
+                            <span>30 min</span>
+                        </div>
+                        <h3 class="recipe-title"><span class="lang-pt">Arroz de Tomate com Croquetes</span><span class="lang-en">Tomato Rice with Croquettes</span></h3>
+                        <p class="recipe-excerpt">
+                            <span class="lang-pt">O conforto tradicional português: croquetes estaladiços acompanhados por um autêntico arroz de tomate malandrinho.</span>
+                            <span class="lang-en">Traditional Portuguese comfort food: crispy croquettes with a classic, saucy tomato rice.</span>
+                        </p>
+                        <span class="btn-text-link"><span class="lang-pt">Ver Receita</span><span class="lang-en">View Recipe</span></span>
+                    </a>
+                </article>
+
+                <article class="recipe-card" data-category="principal">
+                    <a href="receita.html" class="recipe-link">
+                        <img class="recipe-image" src="img/receita-panados-arroz-feijao.jpg" alt="Panados dourados com arroz de feijão" data-alt-en="Golden breaded cutlets with bean rice" width="600" height="300" loading="lazy" decoding="async">
+                        <div class="recipe-meta">
+                            <span class="recipe-tag"><span class="lang-pt">Prato Principal</span><span class="lang-en">Main Course</span></span>
+                            <span>25 min</span>
+                        </div>
+                        <h3 class="recipe-title"><span class="lang-pt">Panados com Arroz de Feijão</span><span class="lang-en">Breaded Cutlets with Bean Rice</span></h3>
+                        <p class="recipe-excerpt">
+                            <span class="lang-pt">Um clássico rápido e irresistível: panados dourados e crocantes com o sabor rico do arroz de feijão vermelho.</span>
+                            <span class="lang-en">A quick, irresistible classic: golden, crispy cutlets with rich red bean rice.</span>
+                        </p>
+                        <span class="btn-text-link"><span class="lang-pt">Ver Receita</span><span class="lang-en">View Recipe</span></span>
+                    </a>
+                </article>
+
+                <article class="recipe-card" data-category="principal">
+                    <a href="receita.html" class="recipe-link">
+                        <img class="recipe-image" src="img/receita-pota-lagareiro.jpg" alt="Tentáculos de pota à lagareiro com batata a murro" data-alt-en="Lagareiro-style squid tentacles with punched potatoes" width="600" height="300" loading="lazy" decoding="async">
+                        <div class="recipe-meta">
+                            <span class="recipe-tag"><span class="lang-pt">Prato Principal</span><span class="lang-en">Main Course</span></span>
+                            <span>40 min</span>
+                        </div>
+                        <h3 class="recipe-title"><span class="lang-pt">Tentáculos de Pota à Lagareiro</span><span class="lang-en">Lagareiro-Style Squid Tentacles</span></h3>
+                        <p class="recipe-excerpt">
+                            <span class="lang-pt">Sabores do mar com azeite virgem e alho: tentáculos tenros e batatinhas a murro assadas no forno.</span>
+                            <span class="lang-en">Flavours of the sea with virgin olive oil and garlic: tender tentacles and oven-roasted punched potatoes.</span>
+                        </p>
+                        <span class="btn-text-link"><span class="lang-pt">Ver Receita</span><span class="lang-en">View Recipe</span></span>
+                    </a>
+                </article>
+
+                <article class="recipe-card" data-category="principal">
+                    <a href="receita.html" class="recipe-link">
+                        <img class="recipe-image" src="img/receita-bacalhau-no-forno.jpg" alt="Lombos de bacalhau assados no forno" data-alt-en="Oven-baked cod loins" width="600" height="300" loading="lazy" decoding="async">
+                        <div class="recipe-meta">
+                            <span class="recipe-tag"><span class="lang-pt">Prato Principal</span><span class="lang-en">Main Course</span></span>
+                            <span>45 min</span>
+                        </div>
+                        <h3 class="recipe-title"><span class="lang-pt">Bacalhau no Forno</span><span class="lang-en">Oven-Baked Cod</span></h3>
+                        <p class="recipe-excerpt">
+                            <span class="lang-pt">O rei da mesa: lombos suculentos que se desfazem em lascas, assados lentamente no forno.</span>
+                            <span class="lang-en">The king of the Portuguese table: succulent loins that flake apart, slowly roasted in the oven.</span>
+                        </p>
+                        <span class="btn-text-link"><span class="lang-pt">Ver Receita</span><span class="lang-en">View Recipe</span></span>
+                    </a>
+                </article>
+
+                <article class="recipe-card" data-category="snack">
+                    <a href="receita.html" class="recipe-link">
+                        <img class="recipe-image" src="img/receita-wrap-neutura.jpg" alt="Wrap recheado com produtos Neutura" data-alt-en="Wrap filled with Neutura products" width="600" height="300" loading="lazy" decoding="async">
+                        <div class="recipe-meta">
+                            <span class="recipe-tag">Snack</span>
+                            <span>10 min</span>
+                        </div>
+                        <h3 class="recipe-title"><span class="lang-pt">Wrap Neutura</span><span class="lang-en">Neutura Wrap</span></h3>
+                        <p class="recipe-excerpt">
+                            <span class="lang-pt">Uma solução rápida, fresca e versátil. Recheie com os seus produtos favoritos para uma refeição prática e saborosa.</span>
+                            <span class="lang-en">A quick, fresh and versatile option. Fill it with your favourite products for an easy, tasty meal.</span>
+                        </p>
+                        <span class="btn-text-link"><span class="lang-pt">Ver Receita</span><span class="lang-en">View Recipe</span></span>
+                    </a>
+                </article>
+
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer" id="rodape">
+    <div class="footer-grid">
+        <div class="footer-col footer-brand">
+            <img src="img/neutura-logotipo.png" alt="Neutura" class="site-logo-footer" width="400" height="400" loading="lazy" decoding="async">
+            <img src="img/dalifal-40-anos-logotipo.png" alt="Dalifal – 40 anos" data-alt-en="Dalifal – 40 years" class="site-logo-footer" width="400" height="400" loading="lazy" decoding="async">
+        </div>
+        <nav class="footer-col footer-nav" aria-label="Rodapé" data-aria-en="Footer">
+            <h2 class="footer-heading"><span class="lang-pt">Navegação</span><span class="lang-en">Navigation</span></h2>
+            <a href="marca.html"><span class="lang-pt">A Marca</span><span class="lang-en">The Brand</span></a>
+            <a href="receitas.html"><span class="lang-pt">Receitas</span><span class="lang-en">Recipes</span></a>
+            <a href="b2b.html"><span class="lang-pt">Soluções B2B</span><span class="lang-en">B2B Solutions</span></a>
+            <a href="carreiras.html"><span class="lang-pt">Carreiras</span><span class="lang-en">Careers</span></a>
+            <a href="contactos.html"><span class="lang-pt">Contactos</span><span class="lang-en">Contacts</span></a>
+            <a href="https://www.ateti.eu" target="_blank" rel="noopener noreferrer"><span class="lang-pt">Loja Online</span><span class="lang-en">Online Store</span></a>
+        </nav>
+        <div class="footer-col footer-contacts">
+            <h2 class="footer-heading"><span class="lang-pt">Contactos</span><span class="lang-en">Contacts</span></h2>
+            <p><span class="nowrap">Estrada Nacional 111,</span><br><span class="nowrap">3025-496 S. Martinho de Árvore</span></p>
+            <p><strong><span class="lang-pt">Apoio ao Cliente:</span><span class="lang-en">Customer Support:</span></strong> <a href="tel:+351808201679" class="nowrap">808 201 679</a></p>
+            <p><strong><span class="lang-pt">Geral:</span><span class="lang-en">General:</span></strong> <a href="tel:+351239951231" class="nowrap">239 951 231</a></p>
+            <p><strong>Email:</strong> <a href="mailto:apoio.clientes@neutura.pt">apoio.clientes@neutura.pt</a></p>
+        </div>
+        <div class="footer-col footer-social">
+            <h2 class="footer-heading"><span class="lang-pt">Redes Sociais</span><span class="lang-en">Social Media</span></h2>
+            <div class="social-links">
+                <a href="https://www.facebook.com/neutura" target="_blank" rel="noopener noreferrer">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                    <span class="sr-only">Facebook</span>
+                </a>
+                <a href="https://www.instagram.com/neutura.pt/" target="_blank" rel="noopener noreferrer">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    <span class="sr-only">Instagram</span>
+                </a>
+            </div>
+            <a href="https://www.livroreclamacoes.pt/Inicio/" target="_blank" rel="noopener noreferrer"><span class="lang-pt">Livro de Reclamações</span><span class="lang-en">Complaints Book</span></a>
+        </div>
+    </div>
+    <div class="footer-bottom-bar">
+        <p>© 2026 Neutura. <span class="lang-pt">Todos os direitos reservados.</span><span class="lang-en">All rights reserved.</span>
+            <a href="privacidade.html"><span class="lang-pt">Política de Privacidade</span><span class="lang-en">Privacy Policy</span></a> ·
+            <a href="termos.html"><span class="lang-pt">Termos e Condições</span><span class="lang-en">Terms &amp; Conditions</span></a> ·
+            <a href="cookies.html"><span class="lang-pt">Política de Cookies</span><span class="lang-en">Cookie Policy</span></a>
+        </p>
+    </div>
+</footer>
+
+<script src="main.js" defer></script>
+
+</body>
+</html>

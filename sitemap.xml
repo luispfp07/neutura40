@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.neutura.pt/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://www.neutura.pt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.neutura.pt/en/"/>
+  </url>
+  <url>
+    <loc>https://www.neutura.pt/en/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://www.neutura.pt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.neutura.pt/en/"/>
+  </url>
+  <url>
+    <loc>https://www.neutura.pt/marca.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://www.neutura.pt/marca.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.neutura.pt/en/brand.html"/>
+  </url>
+  <url>
+    <loc>https://www.neutura.pt/en/brand.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://www.neutura.pt/marca.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.neutura.pt/en/brand.html"/>
+  </url>
+  <url>
+    <loc>https://www.neutura.pt/receitas.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://www.neutura.pt/receitas.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.neutura.pt/en/recipes.html"/>
+  </url>
+  <url>
+    <loc>https://www.neutura.pt/en/recipes.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://www.neutura.pt/receitas.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.neutura.pt/en/recipes.html"/>
+  </url>
+  <url>
+    <loc>https://www.neutura.pt/receita.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://www.neutura.pt/receita.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.neutura.pt/en/rustic-migas-recipe.html"/>
+  </url>
+  <url>
+    <loc>https://www.neutura.pt/en/rustic-migas-recipe.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://www.neutura.pt/receita.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.neutura.pt/en/rustic-migas-recipe.html"/>
+  </url>
+  <url>
+    <loc>https://www.neutura.pt/b2b.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://www.neutura.pt/b2b.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.neutura.pt/en/b2b.html"/>
+  </url>
+  <url>
+    <loc>https://www.neutura.pt/en/b2b.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://www.neutura.pt/b2b.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.neutura.pt/en/b2b.html"/>
+  </url>
+  <url>
+    <loc>https://www.neutura.pt/carreiras.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://www.neutura.pt/carreiras.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.neutura.pt/en/careers.html"/>
+  </url>
+  <url>
+    <loc>https://www.neutura.pt/en/careers.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://www.neutura.pt/carreiras.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.neutura.pt/en/careers.html"/>
+  </url>
+  <url>
+    <loc>https://www.neutura.pt/contactos.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://www.neutura.pt/contactos.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.neutura.pt/en/contacts.html"/>
+  </url>
+  <url>
+    <loc>https://www.neutura.pt/en/contacts.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://www.neutura.pt/contactos.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.neutura.pt/en/contacts.html"/>
+  </url>
+  <url>
+    <loc>https://www.neutura.pt/privacidade.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://www.neutura.pt/privacidade.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.neutura.pt/en/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://www.neutura.pt/en/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://www.neutura.pt/privacidade.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.neutura.pt/en/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://www.neutura.pt/termos.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://www.neutura.pt/termos.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.neutura.pt/en/terms.html"/>
+  </url>
+  <url>
+    <loc>https://www.neutura.pt/en/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://www.neutura.pt/termos.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.neutura.pt/en/terms.html"/>
+  </url>
+  <url>
+    <loc>https://www.neutura.pt/cookies.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://www.neutura.pt/cookies.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.neutura.pt/en/cookies.html"/>
+  </url>
+  <url>
+    <loc>https://www.neutura.pt/en/cookies.html</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://www.neutura.pt/cookies.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.neutura.pt/en/cookies.html"/>
+  </url>
+</urlset>
