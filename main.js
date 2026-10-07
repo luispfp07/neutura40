@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 toggle.focus();
             }
         });
-        window.matchMedia('(min-width: 901px)').addEventListener('change', e => { if (e.matches) setMenu(false); });
+        window.matchMedia('(min-width: 993px)').addEventListener('change', e => { if (e.matches) setMenu(false); });
     }
 
     /* --- 3. CABEÇALHO COMPACTO AO FAZER SCROLL --- */
